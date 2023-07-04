@@ -1,0 +1,26 @@
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.form{
+    width: 100px;
+    background-color: black;
+    color: gold;
+    border: none;
+}
+
+.form:focus{
+    outline: none;
+}
+
+.logo{
+    font: Montserrat;
+    font-weight: 800;
+}
+
+.logo:hover{
+    cursor: pointer;
+}

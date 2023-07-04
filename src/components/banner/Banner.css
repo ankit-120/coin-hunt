@@ -1,0 +1,24 @@
+.banner{
+    background-image: url('/public/banner.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head{
+    font-size: 100px;
+    font-weight: 800;
+    color: white;
+}
+
+.sub-head{
+    font-size: 16px;
+    color: white;
+}
