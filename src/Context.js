@@ -5,18 +5,22 @@ export const CryptoContext = createContext();
 const Context = ({children}) => {
 
     // const [currency,setCurrency] = useState("INR");
-    // console.log("contexy : ",currency)
     // const [symbol,setSymbol] = useState("₹");
+    // console.log(currency);
+
     const [currency,setCurrency] = useState({
-      cur : "INR",
-      sym : "₹"
+      code : 'INR',
+      symbol : '₹'
     })
 
-    useEffect(()=>{
-        if(currency.cur === 'INR') setCurrency({...currency,sym:"₹"});
-        else if(currency.cur === 'USD') setCurrency({...currency,sym:"$"});
-        // console.log("inside useEffect : ",currency)
-    },[currency.cur]);
+    console.log(currency.code);
+    console.log(currency.symbol);
+
+    // useEffect(()=>{
+    //     if(currency === 'INR') setSymbol("₹");
+    //     else if(currency === 'USD') setSymbol("$");
+    //     console.log("symbol updated");
+    // },[currency]);
 
   return (
     <CryptoContext.Provider value={{currency,setCurrency}}>
