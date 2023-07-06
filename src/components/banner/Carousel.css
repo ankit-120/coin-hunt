@@ -1,7 +1,15 @@
-.carousel{
-    width: 100px;
+.coin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.coin-img{
-    border: 2px solid red;
+.coin-price{
+    font-size: 22px;
+    font-weight: 800;
 }

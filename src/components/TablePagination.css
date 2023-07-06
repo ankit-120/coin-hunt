@@ -1,0 +1,13 @@
+.paging{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.paging:hover{
+    border: 2px solid white;
+    width: 40px;
+}

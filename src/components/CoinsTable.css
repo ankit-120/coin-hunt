@@ -1,0 +1,49 @@
+.search-box{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+}
+.search-box::placeholder{
+    color: gray;
+}
+.search-box:focus{
+    background-color: black;
+    color: white;
+}
+
+.table-col1{
+    background-color: black !important;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+}
+
+.table-col2{
+    background-color: black !important;
+    border-bottom: 1px solid darkgray;
+    color: white !important;
+}
+
+.table-col3{
+    background-color: black !important;
+    border-bottom: 1px solid darkgray;
+}
+
+.coin-img{
+    object-fit: contain;
+
+}
+
+tr:hover{
+    cursor: pointer;
+}
+
+.table-div{
+    text-align: center;
+}
+
+
+

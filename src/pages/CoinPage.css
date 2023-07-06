@@ -1,0 +1,35 @@
+.sidebar{
+    border-right: 2px solid darkgray;
+}
+
+.img-name-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-div{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 5px 0px 0px 0px;
+    
+}
+
+.desc-div{
+    color: white;
+    width: 100%;
+    padding: 0px 25px 15px 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.info{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.info-value{
+    font-weight: 100;
+}
